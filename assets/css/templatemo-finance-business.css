@@ -6,8 +6,11 @@ https://templatemo.com/tm-545-finance-business
 
 */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&family=Patrick+Hand&family=Wendy+One&display=swap');
+
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Nunito', sans-serif;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -15,9 +18,9 @@ body {
 }
 p {
 	margin-bottom: 0px;
-	font-size: 14px;
+	font-size: 2rem;
 	color: #666666;
-	line-height: 30px;
+	line-height: 2.5rem;
 }
 a {
 	text-decoration: none!important;
@@ -298,7 +301,7 @@ header .navbar {
 .navbar .navbar-nav a.nav-link {
 	text-transform: capitalize;
 	font-size: 15px;
-	font-weight: 300;
+	font-weight: 400;
 	letter-spacing: 0.5px;
 	color: #fff;
 	transition: all 0.5s;
@@ -342,7 +345,7 @@ header .navbar {
   display: block;
   overflow: hidden;
   position: relative;
-  text-align: center
+  text-align: center;
 }
 
 .img-fill img {
@@ -383,24 +386,41 @@ header .navbar {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
-	height:95vh;
+	height:100vh;
 }
 
 .Modern-Slider .item-1 .img-fill {
-	background-image: url(../images/slide_01.jpg);
+	background-image: url(../images/header2.jpg);
 }
 
 .Modern-Slider .item-2 .img-fill {
-	background-image: url(../images/slide_02.jpg);
+	background-image: url(../images/header1.jpg);
 }
 
 .Modern-Slider .item-3 .img-fill {
-	background-image: url(../images/slide_03.jpg);
+	background-image: url(../images/header2.jpg);
 }
 
 .Modern-Slider .item-4 .img-fill {
-	background-image: url(../images/slide_04.jpg);
+	background-image: url(../images/header1.jpg);
 }
+
+.Modern-Slider .item-5 .img-fill {
+	background: transparent;
+}
+
+.Modern-Slider .item-6 .img-fill {
+	background: transparent;
+}
+
+.Modern-Slider .item-7 .img-fill {
+	background: transparent;
+}
+
+.Modern-Slider .item-8 .img-fill {
+	background: transparent;
+}
+
 
 .Modern-Slider .NextArrow{
   position:absolute;
@@ -411,7 +431,7 @@ header .navbar {
   text-align:center;
   font-size: 36px;
   font-family: 'FontAwesome';
-  color:#FFF;
+  color:#8B1980;
   z-index:5;
   outline: none;
   cursor: pointer;
@@ -430,7 +450,7 @@ header .navbar {
   text-align:center;
   font-size: 36px;
   font-family: 'FontAwesome';
-  color:#FFF;
+  color:#8B1980;
   z-index:5;
   outline: none;
   cursor: pointer;
@@ -446,42 +466,36 @@ ul.slick-dots {
 
 .Modern-Slider .text-content {
 	text-align: center;
-  	width: 80%;
+  	width: 70%;
   	position: absolute;
-  	top: 75%;
+  	top: 70%;
   	left: 50%;
   	transform: translate(-50%, -50%);
 }
 
-.Modern-Slider .item h6 {
-  margin-bottom: 15px;
-  font-size: 34px;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 1px;
-  color:#8B1980;
-  animation:fadeOutRight 1s both;
-  text-shadow: 3px 3px rgb(0, 0, 0, 0.500);
-}
+
 
 .Modern-Slider .item h4 {
-  margin-bottom: 5px;
+	font-family: 'Wendy One', sans-serif;
+  margin-bottom: 10px;
   text-transform: uppercase;
-  font-size: 44px;
+  font-size: 4REM;
   font-weight: 700;
   letter-spacing: 2.5px;
-  color:#fff;
+  color:#FFF;
   text-shadow: 3px 3px rgb(0, 0, 0, 0.500);
   overflow:hidden;
   animation:fadeOutLeft 1s both;
 }
 
-.Modern-Slider .item p {
-	color: #fff;
+.Modern-Slider .item h6 {
+	font-family: 'Nunito';
+	font-weight: 600;
+	color: #8B1980;
 	font-size: 30px;
-	font-weight: 400;
 	line-height: 30px;
 	text-align: center;
+	margin-bottom: 10px;
 }
 
 .Modern-Slider .item a {
@@ -505,7 +519,7 @@ ul.slick-dots {
   position: relative;
 }
 
-.Modern-Slider {background:#000;}
+/*.Modern-Slider {background:#000;}*/
 
 
 /* ==== Slick Slider Css Ruls === */
@@ -559,14 +573,22 @@ ul.slick-dots {
 	margin-top: 140px;
 }
 
+#comofunciona .service-item {
+	background-image: url(../images/fondocomofunciona1.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+
+}
+
 .service-item img {
 	width: 100%;
 	overflow: hidden;
 }
 
 .service-item .down-content {
-	background-color: #f7f7f7;
-	padding: 30px;
+	margin: 2px 2px 2px 2px;
+	padding: 4vh;
 }
 
 .service-item .down-content h4 {
@@ -586,27 +608,26 @@ ul.slick-dots {
 
 .fun-facts {
 	margin-top: 140px;
-	background-image: url(../images/fun-facts-bg.jpg);
+	background-image: url(../images/fondoal30.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	padding: 140px 0px;
-	color: #fff;
 }
 
 .fun-facts span {
 	text-transform: uppercase;
 	font-size: 15px;
-	color: #fff;
 	letter-spacing: 1px;
 	margin-bottom: 10px;
 	display: block;
 }
 
 .fun-facts h2 {
-	font-size: 36px;
-	font-weight: 600;
+	color: #8B1980;
+	font-size: 3rem;
+	font-weight: 800;
 	margin-bottom: 35px;
 }
 
@@ -616,12 +637,13 @@ ul.slick-dots {
 }
 
 .fun-facts p {
-	color: #fff;
+	color: #8B1980;
 	margin-bottom: 40px;
+	font-weight: 300;
 }
 
 .fun-facts .left-content {
-	margin-right: 45px;
+	margin-right: 5px;
 }
 
 .count-area-content {
@@ -1248,11 +1270,11 @@ footer .contact-form button.filled-button:hover {
 	  line-height: 36px;
 	  letter-spacing: 1px;
 	}
-	.Modern-Slider .item p {
+/*	.Modern-Slider .item p {
 		max-width: 570px;
 		line-height: 25px;
 		margin-bottom: 30px;
-	}
+	}*/
 	.Modern-Slider .NextArrow{
 	  right:5px;
 	}
@@ -1343,4 +1365,53 @@ footer .contact-form button.filled-button:hover {
 		color: #8B1980!important;
 		border-bottom: none!important;
 	}
+}
+
+
+.navbar-brand img{
+	height: 3rem;
+}
+
+.left-content {
+	color: #8B1980;
+	background-color: #fff;
+	padding: 2rem;
+}
+
+.left-content p{
+	font-family: 'Nunito';
+	font-weight: 300;
+}
+
+
+.container-photo img{
+	width: 100%;
+}
+
+#comofunciona p {
+	font-size: 1rem;
+	line-height: 1rem
+}
+
+.down-content img {
+	width: 50%;
+}
+
+.down-content {
+	text-align: center;
+}
+
+#suscripciones h2{
+	font-family: 'Patrick Hand', 'sans-serif';
+	font-size: 3.5rem;
+	color: #8B1980;
+}
+
+#suscripciones p{
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+
+#suscripciones {
+	background: none;
 }
