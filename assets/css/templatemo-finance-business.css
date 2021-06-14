@@ -18,7 +18,7 @@ body {
 }
 p {
 	margin-bottom: 0px;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	color: #666666;
 	line-height: 2.5rem;
 }
@@ -626,7 +626,7 @@ ul.slick-dots {
 
 .fun-facts h2 {
 	color: #8B1980;
-	font-size: 3rem;
+	font-size: 2rem;
 	font-weight: 800;
 	margin-bottom: 35px;
 }
@@ -1414,4 +1414,12 @@ footer .contact-form button.filled-button:hover {
 
 #suscripciones {
 	background: none;
+}
+
+#opiniones .testeado h2{
+	font-family: 'Patrick Hand', sans serif;
+	font-size: 3.5rem;
+	color: #8B1980;
+	text-align: center;
+
 }
