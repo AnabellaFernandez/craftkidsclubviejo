@@ -8,6 +8,8 @@ https://templatemo.com/tm-545-finance-business
 
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&family=Patrick+Hand&family=Wendy+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
 
 body {
   font-family: 'Nunito', sans-serif;
@@ -390,19 +392,27 @@ header .navbar {
 }
 
 .Modern-Slider .item-1 .img-fill {
-	background-image: url(../images/header2.jpg);
+	background-image: url(../images/header1.jpg);
+	background-size: cover;
+	background-position: right top;
 }
 
 .Modern-Slider .item-2 .img-fill {
-	background-image: url(../images/header1.jpg);
+	background-image: url(../images/header2.jpg);
+	background-size: cover;
+	background-position: right top;
 }
 
 .Modern-Slider .item-3 .img-fill {
-	background-image: url(../images/header2.jpg);
+	background-image: url(../images/header3.jpg);	
+	background-size: cover;
+	background-position: right top;
 }
 
 .Modern-Slider .item-4 .img-fill {
-	background-image: url(../images/header1.jpg);
+	background-image: url(../images/header4.jpg);
+	background-size: cover;
+	background-position: right top;
 }
 
 .Modern-Slider .item-5 .img-fill {
@@ -465,21 +475,21 @@ ul.slick-dots {
 }
 
 .Modern-Slider .text-content {
-	text-align: center;
-  	width: 70%;
+	text-align: right;
+  	width: 20%;
   	position: absolute;
-  	top: 70%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
+  	top: 30%;
+  	left: 70%;
+/*  	transform: translate(-50%, -50%);*/
 }
 
 
 
 .Modern-Slider .item h4 {
-	font-family: 'Wendy One', sans-serif;
+	font-family: 'Lilita One', sans-serif;
   margin-bottom: 10px;
-  text-transform: uppercase;
-  font-size: 4REM;
+/*  text-transform: uppercase;*/
+  font-size: 3REM;
   font-weight: 700;
   letter-spacing: 2.5px;
   color:#FFF;
@@ -494,7 +504,7 @@ ul.slick-dots {
 	color: #8B1980;
 	font-size: 30px;
 	line-height: 30px;
-	text-align: center;
+	text-align: right;
 	margin-bottom: 10px;
 }
 
@@ -1323,6 +1333,7 @@ footer .contact-form button.filled-button:hover {
 	.contact-item {
 		margin-bottom: 30px;
 	}
+
 }
 
 @media (max-width: 992px) {
@@ -1365,6 +1376,60 @@ footer .contact-form button.filled-button:hover {
 		color: #8B1980!important;
 		border-bottom: none!important;
 	}
+	.Modern-Slider .item-1 .img-fill {
+		background-image: url(../images/header1.jpg);
+		background-size: cover;
+		background-position: left;
+	}
+
+	.Modern-Slider .item-2 .img-fill {
+		background-image: url(../images/header2.jpg);
+		background-size: cover;
+		background-position: left;
+	}
+
+	.Modern-Slider .item-3 .img-fill {
+		background-image: url(../images/header3.jpg);	
+		background-size: cover;
+		background-position: left;
+	}
+
+	.Modern-Slider .item-4 .img-fill {
+		background-image: url(../images/header4.jpg);
+		background-size: cover;
+		background-position: left;
+	}
+	.Modern-Slider .text-content {
+		text-align: center;
+	  	width: 70%;
+	  	position: absolute;
+	  	top: 10%;
+	  	left: 20%;
+	}
+	.Modern-Slider .item h4 {
+		font-family: 'Lilita One', sans-serif;
+	  margin-bottom: 10px;
+	/*  text-transform: uppercase;*/
+	  font-size: 3REM;
+	  font-weight: 700;
+	  letter-spacing: 2.5px;
+	  color:#FFF;
+	  text-shadow: 3px 3px rgb(0, 0, 0, 0.500);
+	  overflow:hidden;
+	  animation:fadeOutLeft 1s both;
+	}
+
+	.Modern-Slider .item h6 {
+		font-family: 'Nunito', sans-serif;
+		font-weight: 600;
+		color: #8B1980;
+		font-size: 30px;
+		line-height: 30px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+
 }
 
 
@@ -1402,7 +1467,8 @@ footer .contact-form button.filled-button:hover {
 }
 
 #suscripciones h2{
-	font-family: 'Patrick Hand', 'sans-serif';
+	font-family: 'Nunito', 'sans-serif';
+	font-weight: 600;
 	font-size: 3.5rem;
 	color: #8B1980;
 }
@@ -1417,7 +1483,8 @@ footer .contact-form button.filled-button:hover {
 }
 
 #opiniones .testeado h2{
-	font-family: 'Patrick Hand', sans serif;
+	font-family: 'Nunito', sans serif;
+	font-weight: 600;
 	font-size: 3.5rem;
 	color: #8B1980;
 	text-align: center;
